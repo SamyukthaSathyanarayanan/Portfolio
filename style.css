@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+:root{
+  --primary-color:#d30935;
+  --grey-color: #e7e5e4;
+}
+
+body{
+  margin: 0;
+  font-family:  'Source Serif Pro', serif;
+}
+
+/* navbar  */
+
+.navigation {
+  background-color: var(--primary-color);
+  padding:1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.nav-links{
+  display: flex;
+  list-style: none;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+
+.navigation li, .footer li{
+  padding: 0rem 1.5rem;
+}
+
+
+.nav-brand, .footer-heading{
+  color: white;
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head .header-image{
+  max-width: 30rem;
+  margin-top: 2rem;
+  height: 27rem;
+}
+
+
+.head .header-title{
+  text-align: center;
+  margin-bottom: 2rem;
+  color: rgb(68, 64, 64);
+}
+
+/* section */
+
+  .sec{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    }
+
+  #techskill{
+    padding: 2rem 1rem 1rem 1rem;
+  }
+
+  .content-sec{
+    max-width: 28rem; 
+    padding: 2rem 1rem 3rem 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .content-sec p{
+    margin-bottom: 2rem;
+  }
+
+  .content-sec h2{
+    margin-block-start: 0em;
+  }
+    
+  .offwhite{
+    background-color: var(--grey-color);
+   
+  }
+
+  
+  .primary-button{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem;
+    margin-right: 1rem;
+
+  }
+  
+  .secondary-button{
+    color: var(--primary-color); 
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem;
+  }
+
+  .secondary-button .link{
+    color: var(--primary-color);
+  }
+
+/* footer */
+
+  .footer{
+    background-color: var(--primary-color);
+    padding-bottom: 1.2rem;
+    padding-top: 0.1rem;
+    text-align: center;
+  }
+
+  .footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer ul{
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+
+  .footer-heading{
+    font-size: 20px;
+    font-weight: bold;
+  }
