@@ -159,4 +159,8 @@ body{
     ul{
       padding-inline-start: 0px;
     }
+
+    .devtitle{
+        font-size: 1.5rem;
+    }
   }
